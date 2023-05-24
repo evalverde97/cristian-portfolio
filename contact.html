@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contacto - Portafolio de Cristian Borlenghi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            padding-top: 5rem;
+        }
+        .starter-template {
+            padding: 3rem 1.5rem;
+        }
+        .footer {
+            background-color: #f5f5f5;
+            padding: 20px 0;
+            margin-top: 40px;
+            text-align: center;
+            border-top: 1px solid #e5e5e5;
+        }
+        .social-icon {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top justify-content-end">
+        <a class="navbar-brand" href="#"> CB</a>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Acerca de</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contacto <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main" class="container">
+        <div class="starter-template">
+            <h1>Contacto</h1>
+            <p class="lead">¿Interesado en mi trabajo? ¡No dudes en contactarme!<br> Llena el formulario a continuación y me pondré en contacto contigo lo antes posible.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <form name="contact" method="POST" data-netlify="true">
+                    <div class="form-group">
+                        <label for="contactName">Nombre</label>
+                        <input type="text" class="form-control" id="contactName" name="name" placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="contactEmail" name="email" placeholder="nombre@ejemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Mensaje</label>
+                        <textarea class="form-control" id="contactMessage" name="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Sígueme en las redes sociales:</p>
+            <a href="#" class="social-icon"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="#" class="social-icon"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="#" class="social-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" class="social-icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
